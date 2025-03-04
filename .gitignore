@@ -31,3 +31,17 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Ignorar diretórios e arquivos gerados pelo Maven
+/target
+*.log
+
+# Ignorar arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar configurações do VS Code
+.vscode/
+
+# Ignorar credenciais sensíveis (caso tenha)
+application.properties
